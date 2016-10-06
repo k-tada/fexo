@@ -1,65 +1,63 @@
 # Blog info
-blog_name: Forsigner
-slogan: Find the bug of the world
-url: http://www.forsigner.com
+blog_name: Lonely Metabo ran away...
+slogan: はぐれメタボは逃げ出した
+url: http://k-tada.github.io
 
 # Set avatar (Absolute url and relative url)
-avatar: /images/avatar.jpg
+avatar: /images/shobon3.jpeg
 
 # Set favicon
 favicon: /favicon.ico
 
 # For seo
-keywords: forsigner,前端,设计,Hexo主题,前端开发,用户体验,设计,frontend,design,nodejs,JavaScript
+keywords: forsigner,Hexo,frontend,design,nodejs,JavaScript
 
 home_nav:
   - name: Blog
     url: /archives
-    target_blank: false #不在新页面打开
+    target_blank: false
   - name: Project
     url: /project/
-    target_blank: true #在新页面打开
+    target_blank: true
   - name: Github
-    url: https://github.com/forsigner
+    url: https://github.com/k-tada
     target_blank: true
   - name: Twitter
-    url: https://twitter.com/forsigner
+    url: https://twitter.com/shuntxxxeve
     target_blank: true
 
 # config page nav
 page_nav:
-  - name: 博客
+  - name: Blogger
     url: /archives/
-    target_blank: false # 不在新页面打开
-  - name: 分类
+    target_blank: false
+  - name: Category
     url: /category/
     target_blank: false
-  - name: 标签
+  - name: Tags
     url: /tag/
     target_blank: false
-  - name: 友链
+  - name: Link
     url: /link/
     target_blank: false
-  - name: 关于
+  - name: About
     url: /about/
     target_blank: false
   - name: RSS
     url: /atom.xml
-    target_blank: true # 在新页面打开
-  - name: 搜索
+    target_blank: true
+  - name: Search
     url: /search/
-    target_blank: false # 在新页面打开
+    target_blank: false
 
 page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT
 
-# 面包屑
 breadcrumb:
   isShow: true # true|fase
 
-# 盒子
 toolbox:
   isShow: true # true|fase
-  text: 盒子
+  text: ToolBox
 
 search_slogan:
   isShow: true # true|fase
@@ -67,7 +65,7 @@ search_slogan:
 
 link_slogan:
   isShow: true # true|fase
-  text: 交换友链可以邮件 forsigner@gmail.com
+  text: メール： white.rv0925@gmail.com
 
 
 # set backtop show or hide
