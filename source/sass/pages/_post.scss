@@ -10,9 +10,9 @@
     background: #f0f0f0;
   }
   .toolbox {
-    margin-top: -40px;
-    margin-left: -18px;
-    background: #fff;
+    margin-top: -60px;
+    margin-left: -218px;
+    background: #eee;
     transition-duration: 0.5s;
     transition-propety: transform;
     &:hover {
@@ -20,7 +20,7 @@
     }
     .toolbox-entry {
       .icon-angle-down {
-        margin-top: 16px;
+        margin-top: 36px;
         display: inline-block;
         line-height: 0;
         font-size: 22px;

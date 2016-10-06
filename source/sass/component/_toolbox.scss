@@ -1,8 +1,8 @@
 .toolbox {
   position: relative;
   width: 60px;
-  height: 40px;
-  border-radius: 20px;
+  height: 60px;
+  border-radius: 30px;
   background: transparent;
   &:hover {
     width: 200px;
@@ -67,16 +67,16 @@
   .toolbox-entry {
     position: relative;
     font-size: 13px;
-    line-height: 40px;
+    line-height: 60px;
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin-bottom: 20px;
     transition-duration: .5s;
     text-align: center;
     color: #555;
     border-radius: 50%;
-    background: #f0f0f0;
+    background: #ddd;
 
     transition-propety: background-color;
     .icon-angle-down  {
@@ -105,26 +105,26 @@
   .list-toolbox {
     position: absolute;
     top: -17px;
-    left: 46px;
+    left: 66px;
     display: none;
     width: 500px;
     .item-toolbox {
       display: inline-block;
       a {
         font-size: 13px;
-        line-height: 40px;
+        line-height: 60px;
         display: inline-block;
-        height: 40px;
+        height: 60px;
         margin-bottom: 20px;
         transition-duration: .5s;
         text-align: center;
         color: #555;
-        border-radius: 20px;
+        border-radius: 30px;
         background: #f0f0f0;
 
         transition-propety: background-color;
         &.CIRCLE {
-          width: 40px;
+          width: 60px;
         }
         &.ROUND_RECT {
           padding: 0 20px;

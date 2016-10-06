@@ -1,9 +1,12 @@
 code {
-  padding: 3px 6px;
+  font-size: 0.9em;
+  padding: 1px 3px;
   vertical-align: middle;
   border-radius: 4px;
-  background-color: #f7f7f7;
-  color: #e96900;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 3px;
 }
 /** Highlight.js Styles (Syntax Highlighting) */
 figure.highlight {

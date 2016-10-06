@@ -1,8 +1,9 @@
 table {
   width: 100%;
   max-width: 100%;
-  border: 1px solid #dfdfdf;
+  border: 1px solid #ccc;
   margin-bottom: 30px;
+  background-color: #ddd;
 
   > thead > tr > th,
   > thead > tr > td {
@@ -15,7 +16,14 @@ table {
     text-align: left;
     vertical-align: top;
     color: $article-color;
-    border: 1px solid #dfdfdf;
+    // border: 1px solid #dfdfdf;
     font-size: $article-font-size;
+  }
+
+  th {
+    background-color: #ccc;
+  }
+  tr:nth-child(2n) {
+    background-color: #d5d5d5;
   }
 }

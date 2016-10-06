@@ -13,13 +13,25 @@
     font-size: 24px;
   }
   h2 {
-    font-size: 20px;
+    position: relative;
+    font-weight: 300;
+    border-bottom: 1px solid #ddd;
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      border-bottom: 1px solid #FFF;
+      width: 100%;
+    }
   }
   h3 {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
   }
   h4 {
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
   }
   a {
     color: $site-color;
