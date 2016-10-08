@@ -16,9 +16,6 @@ home_nav:
   - name: Blog
     url: /archives
     target_blank: false
-  - name: Project
-    url: /project/
-    target_blank: true
   - name: Github
     url: https://github.com/k-tada
     target_blank: true
@@ -36,9 +33,6 @@ page_nav:
     target_blank: false
   - name: Tags
     url: /tag/
-    target_blank: false
-  - name: Link
-    url: /link/
     target_blank: false
   - name: About
     url: /about/
