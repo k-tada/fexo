@@ -121,6 +121,7 @@
     data.forEach(function(item) {
       var isMatch = false;
       var matchKeyWords = [];
+      item.title = item.title.replace(/<[^>]*>/g, '');
       item.content = item.content.replace(/<[^>]*>/g, '');
 
       keywords.forEach(function(word) {
